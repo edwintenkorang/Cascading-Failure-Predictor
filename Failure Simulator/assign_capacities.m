@@ -1,4 +1,5 @@
 function branch_data = assign_capacities(branch_data)
+        %assign quantized branch capacities depending on power flow through the line
         %starting point for while loop iteration
         index = 1; 
         %quantize capacities between 30 - 500
